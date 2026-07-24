@@ -1,0 +1,12 @@
+package com.krakedev;
+
+public class Cuadrado {
+	
+	public int lado;
+	
+	public double calcularArea() {
+		 double area = lado^2;
+		  return area;
+	}
+
+}
