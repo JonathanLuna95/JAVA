@@ -27,6 +27,12 @@ public class TestCalculadora {
 		
 		r4 = c1.dividir(10, 2);
 		System.out.println("Resultado División: " + r4);
+		
+		double r5;
+		
+		r5 = c1.promediar(10, 8 , 9);
+		System.out.println("Resultado Promediar: " + r5);
+
 
 
 	}
