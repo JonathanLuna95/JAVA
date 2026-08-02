@@ -25,25 +25,25 @@ public class VehiculoTest {
 		
 		System.out.println("Hola Mundo");
 		System.out.println("Vehiculo 1 con valores por defecto");
-		System.out.println("Marca : " + v1.marca);
-		System.out.println("Modelo : " + v1.modelo);
-		System.out.println("Anio : " + v1.anio);
-		System.out.println("Precio :" + v1.precio);
+		System.out.println("Marca : " + v1.getMarca());
+		System.out.println("Modelo : " + v1.getModelo());
+		System.out.println("Anio : " + v1.getAnio());
+		System.out.println("Precio :" + v1.getPrecio());
 		
 		//Impresion del objeto completo 
 		System.out.println("Objeto completo vehiculo 1 : " + v1);
 		
-		v1.marca="Mazda";
-		v1.modelo="cx30";
-		v1.anio="2026";
-		v1.precio="50";
+		v1.setMarca("Mazda");
+		v1.setModelo("Cx30");
+		v1.setAnio("2026");
+		v1.setPrecio("50");
 		
 		System.out.println("Vehiculo 1 despues de asignar/setear");
 		
-		System.out.println("Marca : " + v1.marca);
-		System.out.println("Modelo : " + v1.modelo);
-		System.out.println("Anio : " + v1.anio);
-		System.out.println("Precio :" + v1.precio);
+		System.out.println("Marca : " + v1.getMarca());
+		System.out.println("Modelo : " + v1.getModelo());
+		System.out.println("Anio : " + v1.getAnio());
+		System.out.println("Precio :" + v1.getPrecio());
 		
 
 	}

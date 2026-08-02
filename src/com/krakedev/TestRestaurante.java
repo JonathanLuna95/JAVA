@@ -11,32 +11,32 @@ public class TestRestaurante {
 		Restaurante rest2 = new Restaurante();
 		
 		System.out.println("**********Restaurante 1 con valores por defecto************");
-		System.out.println("Nombre : " + rest1.nombre);
-		System.out.println("Direccion : " + rest1.direccion);
-		System.out.println("Calificacion : " + rest1.calificacion);
+		System.out.println("Nombre : " + rest1.getNombre());
+		System.out.println("Direccion : " + rest1.getDireccion());
+		System.out.println("Calificacion : " + rest1.getCalificacion());
 		
 		System.out.println("**********Restaurante 2 con valores por defecto************");
-		System.out.println("Nombre : " + rest2.nombre);
-		System.out.println("Direccion : " + rest2.direccion);
-		System.out.println("Calificacion : " + rest2.calificacion);
+		System.out.println("Nombre : " + rest2.getNombre());
+		System.out.println("Direccion : " + rest2.getDireccion());
+		System.out.println("Calificacion : " + rest2.getCalificacion());
 		
-		rest1.nombre = "Trio Cocina Libre";
-		rest1.direccion = "Av. Río Lelia";
-		rest1.calificacion = 4.8f;
+		rest1.setNombre("Trio Cocina Libre");
+		rest1.setDireccion("Av. Río Lelia");
+		rest1.setCalificacion(4.8f);
 
-		rest2.nombre = "Origen";
-		rest2.direccion = "Av. La Lorena";
-		rest2.calificacion = 4.5f;
+		rest2.setNombre("Origen"); 
+		rest2.setDireccion("Av. La Lorena");
+		rest2.setCalificacion(4.5f);
 
-		System.out.println("**********Restaurante 1 con valores modificados************");
-		System.out.println("Nombre : " + rest1.nombre);
-		System.out.println("Direccion : " + rest1.direccion);
-		System.out.println("Calificacion : " + rest1.calificacion);
-
-		System.out.println("**********Restaurante 2 con valores modificados************");
-		System.out.println("Nombre : " + rest2.nombre);
-		System.out.println("Direccion : " + rest2.direccion);
-		System.out.println("Calificacion : " + rest2.calificacion);
+		System.out.println("**********Restaurante 1 con valores por defecto************");
+		System.out.println("Nombre : " + rest1.getNombre());
+		System.out.println("Direccion : " + rest1.getDireccion());
+		System.out.println("Calificacion : " + rest1.getCalificacion());
+		
+		System.out.println("**********Restaurante 2 con valores por defecto************");
+		System.out.println("Nombre : " + rest2.getNombre());
+		System.out.println("Direccion : " + rest2.getDireccion());
+		System.out.println("Calificacion : " + rest2.getCalificacion());
 		
 
 	}
