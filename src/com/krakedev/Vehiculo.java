@@ -10,6 +10,16 @@ public class Vehiculo {
 	private String anio;
 	private String precio;
 	
+	
+	
+	public Vehiculo(String marca, String modelo, String anio, String precio) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.anio = anio;
+		this.precio = precio;
+		
+	}
+	
 	public String getMarca() {
 		return marca;
 	}
